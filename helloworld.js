@@ -8,7 +8,7 @@ http.createServer(function (request, response) {
    response.writeHead(200, {'Content-Type': 'text/html'})
 
    // Send the response body as "Hello World"
-   response.end('Hello World Application --- Deployed with AWS CodeDeploy/CodePipeline\n')
+   response.end('Hello World Application - Deployed with AWS CodeDeploy/CodePipeline\n')
 }).listen(3000)
 
 // Console will print the message
